@@ -1,6 +1,8 @@
 /* 任务：利用二分查找升序数组中是否存在目标值。若存在，返回其下标，若不存在，返回其插入后所在下标
 *
 */
+#include <vector>
+
 class Solution{
 public:
     int searchInsert(vector<int>& nums, int target) {
